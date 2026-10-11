@@ -1,0 +1,150 @@
+{
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.0",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0"
+  },
+  "training_rows": 7398,
+  "test_rows": 2467,
+  "final_model": "Engineered-feature Gradient Boosting",
+  "final_cv_rmse": 385.0537224987612,
+  "final_cv_sd": 25.44582789019108,
+  "final_train_rmse": 242.0904065085861,
+  "final_parameters": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 5,
+    "model__max_features": 0.5,
+    "model__min_samples_leaf": 10,
+    "model__n_estimators": 800,
+    "model__subsample": 1.0
+  },
+  "baseline_holdout_results": [
+    {
+      "Model": "RandomForest",
+      "Train RMSE": 159.5726320598159,
+      "Val RMSE": 453.316518727596,
+      "Val MAE": 264.7367413278682,
+      "Val R2": 0.7160450505950544,
+      "Train/Val gap": 293.7438866677801
+    },
+    {
+      "Model": "GradientBoosting",
+      "Train RMSE": 405.2073569747752,
+      "Val RMSE": 487.95947425997207,
+      "Val MAE": 304.95029911191364,
+      "Val R2": 0.6709863906321772,
+      "Train/Val gap": 82.75211728519685
+    },
+    {
+      "Model": "LinearRegression",
+      "Train RMSE": 515.1375702359528,
+      "Val RMSE": 550.0382437392805,
+      "Val MAE": 349.382075840655,
+      "Val R2": 0.5819462470548816,
+      "Train/Val gap": 34.90067350332765
+    },
+    {
+      "Model": "Lasso",
+      "Train RMSE": 515.4529750539004,
+      "Val RMSE": 550.9948185395552,
+      "Val MAE": 349.3426704143247,
+      "Val R2": 0.5804909030901635,
+      "Train/Val gap": 35.541843485654795
+    },
+    {
+      "Model": "Ridge",
+      "Train RMSE": 515.4742043174658,
+      "Val RMSE": 551.4241723791728,
+      "Val MAE": 349.6424185777884,
+      "Val R2": 0.5798368569452139,
+      "Train/Val gap": 35.949968061706954
+    },
+    {
+      "Model": "DecisionTree",
+      "Train RMSE": 39.35347039296865,
+      "Val RMSE": 559.3100462659561,
+      "Val MAE": 323.8780123873874,
+      "Val R2": 0.5677334863278997,
+      "Train/Val gap": 519.9565758729874
+    }
+  ],
+  "tuned_cv_results": [
+    {
+      "Model": "GradientBoosting",
+      "Default CV RMSE": 461.37234437278056,
+      "Tuned Train RMSE": 261.8258131203264,
+      "Tuned CV RMSE": 392.90001339890614,
+      "CV RMSE SD": 23.63459005373047,
+      "Best params": {
+        "learning_rate": 0.1,
+        "max_depth": 5,
+        "min_samples_leaf": 10,
+        "n_estimators": 400
+      },
+      "Improvement": 68.47233097387442,
+      "Train/CV gap": 131.07420027857972
+    },
+    {
+      "Model": "RandomForest",
+      "Default CV RMSE": 423.32829148977936,
+      "Tuned Train RMSE": 177.37775449836417,
+      "Tuned CV RMSE": 413.6098778700578,
+      "CV RMSE SD": 29.603958150990305,
+      "Best params": {
+        "max_depth": 20,
+        "max_features": 0.5,
+        "min_samples_leaf": 1
+      },
+      "Improvement": 9.71841361972156,
+      "Train/CV gap": 236.23212337169363
+    },
+    {
+      "Model": "DecisionTree",
+      "Default CV RMSE": 555.957611542023,
+      "Tuned Train RMSE": 373.0003711847369,
+      "Tuned CV RMSE": 483.219016441287,
+      "CV RMSE SD": 30.28977024598971,
+      "Best params": {
+        "max_depth": 15,
+        "min_samples_leaf": 5,
+        "min_samples_split": 20
+      },
+      "Improvement": 72.73859510073595,
+      "Train/CV gap": 110.21864525655013
+    },
+    {
+      "Model": "Ridge",
+      "Default CV RMSE": 526.7667253730664,
+      "Tuned Train RMSE": 521.078673294671,
+      "Tuned CV RMSE": 526.7200606681985,
+      "CV RMSE SD": 25.593283196956772,
+      "Best params": {
+        "alpha": 0.31622776601683794
+      },
+      "Improvement": 0.04666470486790786,
+      "Train/CV gap": 5.6413873735274365
+    },
+    {
+      "Model": "Lasso",
+      "Default CV RMSE": 530.7262279313533,
+      "Tuned Train RMSE": 521.082779773631,
+      "Tuned CV RMSE": 526.7242097309891,
+      "CV RMSE SD": 25.569782160456217,
+      "Best params": {
+        "alpha": 0.03162277660168379
+      },
+      "Improvement": 4.002018200364205,
+      "Train/CV gap": 5.641429957358014
+    }
+  ],
+  "prediction_checks": "All rows, IDs, order, finite positive values, and model agreement passed",
+  "notebook_code_changed": false,
+  "predictions_sha256": "38ecea9f9fbfced12744f77c8fa991b59ae4f10ceec5abd4ed89f8a8c389cab3",
+  "notebook_code_sha256": "7bd483b08338262282e05e3ed9465bf71a85abcc33985c6f8c251d2b6d8e847e",
+  "executed_code_cells": 23
+}
