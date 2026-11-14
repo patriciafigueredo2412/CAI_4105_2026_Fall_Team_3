@@ -73,7 +73,7 @@ ID,Revenue
 304,False
 313,False
 320,False
-321,True
+321,False
 322,False
 326,False
 337,False
@@ -160,7 +160,7 @@ ID,Revenue
 686,False
 692,False
 693,False
-695,True
+695,False
 711,False
 713,False
 715,False
@@ -325,7 +325,7 @@ ID,Revenue
 1334,True
 1337,False
 1349,False
-1350,False
+1350,True
 1351,False
 1353,False
 1357,False
@@ -572,7 +572,7 @@ ID,Revenue
 2325,False
 2333,False
 2334,False
-2336,False
+2336,True
 2343,False
 2346,False
 2350,False
@@ -703,7 +703,7 @@ ID,Revenue
 2889,False
 2891,False
 2893,False
-2902,False
+2902,True
 2917,False
 2919,False
 2920,False
@@ -919,7 +919,7 @@ ID,Revenue
 3803,False
 3806,False
 3808,False
-3812,True
+3812,False
 3816,True
 3821,False
 3823,False
@@ -1023,7 +1023,7 @@ ID,Revenue
 4174,False
 4178,False
 4180,False
-4181,True
+4181,False
 4186,True
 4187,False
 4190,True
@@ -1107,7 +1107,7 @@ ID,Revenue
 4618,True
 4622,True
 4631,True
-4633,False
+4633,True
 4638,False
 4641,False
 4645,False
@@ -1181,7 +1181,7 @@ ID,Revenue
 4909,False
 4918,False
 4922,False
-4923,True
+4923,False
 4924,True
 4928,False
 4930,False
@@ -1202,7 +1202,7 @@ ID,Revenue
 4975,False
 4979,False
 4985,False
-4988,False
+4988,True
 4995,False
 5000,False
 5001,False
@@ -1216,7 +1216,7 @@ ID,Revenue
 5040,False
 5046,False
 5047,False
-5059,False
+5059,True
 5060,False
 5061,False
 5064,False
@@ -1382,7 +1382,7 @@ ID,Revenue
 5694,True
 5695,False
 5698,True
-5703,True
+5703,False
 5713,False
 5716,False
 5717,False
@@ -1503,7 +1503,7 @@ ID,Revenue
 6195,False
 6199,False
 6204,True
-6209,True
+6209,False
 6220,False
 6225,False
 6226,False
@@ -1676,7 +1676,7 @@ ID,Revenue
 6859,True
 6862,False
 6864,False
-6870,False
+6870,True
 6873,False
 6875,False
 6892,False
@@ -1780,16 +1780,16 @@ ID,Revenue
 7281,False
 7283,False
 7284,True
-7285,True
+7285,False
 7287,False
 7292,False
-7294,False
+7294,True
 7297,False
 7298,False
 7299,False
 7303,False
 7311,True
-7316,True
+7316,False
 7317,False
 7320,False
 7322,False
@@ -1892,7 +1892,7 @@ ID,Revenue
 7702,False
 7708,False
 7711,True
-7712,True
+7712,False
 7714,True
 7729,False
 7731,False
@@ -2013,7 +2013,7 @@ ID,Revenue
 8155,False
 8157,False
 8158,False
-8169,True
+8169,False
 8171,False
 8172,False
 8174,False
@@ -2066,7 +2066,7 @@ ID,Revenue
 8321,False
 8333,True
 8335,False
-8336,False
+8336,True
 8337,False
 8338,True
 8346,True
@@ -2192,11 +2192,11 @@ ID,Revenue
 8806,False
 8812,True
 8824,False
-8825,False
+8825,True
 8834,True
 8837,False
 8839,True
-8844,True
+8844,False
 8845,False
 8855,False
 8858,False
@@ -2226,7 +2226,7 @@ ID,Revenue
 8937,False
 8942,False
 8946,False
-8947,True
+8947,False
 8949,False
 8956,False
 8958,True
@@ -2466,11 +2466,11 @@ ID,Revenue
 9931,True
 9932,False
 9937,False
-9942,False
+9942,True
 9949,False
 9959,False
 9961,False
-9963,False
+9963,True
 9969,False
 9974,False
 9980,True
@@ -2624,7 +2624,7 @@ ID,Revenue
 10528,False
 10529,False
 10530,False
-10531,True
+10531,False
 10543,False
 10544,False
 10557,False
@@ -2656,7 +2656,7 @@ ID,Revenue
 10676,False
 10680,True
 10681,False
-10683,True
+10683,False
 10685,True
 10687,False
 10693,True
@@ -2725,7 +2725,7 @@ ID,Revenue
 10977,False
 10982,False
 10984,False
-10985,True
+10985,False
 10990,False
 10994,False
 10995,False
@@ -2755,7 +2755,7 @@ ID,Revenue
 11095,False
 11096,False
 11097,False
-11104,True
+11104,False
 11106,False
 11108,False
 11110,False
@@ -2880,7 +2880,7 @@ ID,Revenue
 11587,False
 11588,False
 11593,False
-11594,True
+11594,False
 11595,False
 11599,False
 11600,False
@@ -2960,7 +2960,7 @@ ID,Revenue
 11834,False
 11841,False
 11843,False
-11856,True
+11856,False
 11860,False
 11861,False
 11864,False
@@ -3043,7 +3043,7 @@ ID,Revenue
 12162,False
 12165,False
 12167,False
-12170,False
+12170,True
 12179,False
 12182,False
 12187,False
